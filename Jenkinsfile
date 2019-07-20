@@ -1,6 +1,7 @@
 node(){
   state("1"){
 	sh "echo Hellow World"  
+        git "git url"
 
   }
   state("2"){
